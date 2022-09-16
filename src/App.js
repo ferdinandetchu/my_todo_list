@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AddTodo from "./components/AddTodo.js";
+import ListItem from "./components/ListItem.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="app">
+      <div className="app_card">
+        <h1>Todo List</h1>
+        <AddTodo />
+        <ListItem />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <span>You have 4 pending task </span>
+          <button className="clear_btn">Clear All</button>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }

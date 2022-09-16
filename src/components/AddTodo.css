@@ -1,0 +1,19 @@
+/* style add todo component */
+.add_todo {}
+
+/* style input field */
+.add_input {
+    margin: 0px 4px;
+    padding: 5px;
+    width: 80%;
+}
+
+/* style btn */
+.add_btn {
+    padding: 7px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}

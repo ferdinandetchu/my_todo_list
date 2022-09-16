@@ -1,0 +1,24 @@
+.list_item {}
+
+.list_info {}
+
+.delete_btn {
+    padding: 7px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.list_info > span {
+  width: 75%;
+}
+.list_info {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: lightgray;
+  margin: 10px;
+  border-radius: 5px;
+}
